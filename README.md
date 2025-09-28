@@ -1,26 +1,13 @@
-🚀 Amaç
+# 📘 Dependency Injection Örneği – ASP.NET Core Web API
 
-IOgretmen (Base Interface) üzerinden bir sözleşme tanımlamak
+Bu proje, **Dependency Injection (DI)** kullanımını göstermek amacıyla hazırlanmış basit bir ASP.NET Core Web API uygulamasıdır.  
 
-Teacher sınıfının bu interface’i implement etmesi
-
-ClassRoom sınıfının IOgretmen bağımlılığını constructor üzerinden alması
-
-ASP.NET Core DI Container kullanılarak bağımlılıkların çözülmesi.
+Projede `Teacher` ve `ClassRoom` sınıfları kullanılarak **Constructor Injection** ile bağımlılık yönetimi yapılmaktadır.  
 
 ---
 
-WebApiDIExample/
-│
-├── Interfaces/
-│   └── IOgretmen.cs
-│
-├── Models/
-│   ├── Teacher.cs
-│   └── ClassRoom.cs
-│
-├── Controllers/
-│   └── ClassRoomController.cs
-│
-├── Program.cs
-└── appsettings.json
+## 🚀 Amaç
+- **IOgretmen (Base Interface)** üzerinden bir sözleşme tanımlamak  
+- **Teacher** sınıfının bu interface’i implement etmesi  
+- **ClassRoom** sınıfının `IOgretmen` bağımlılığını constructor üzerinden alması  
+- ASP.NET Core **DI Container** kullanılarak bağımlılıkların çözülmesi  
